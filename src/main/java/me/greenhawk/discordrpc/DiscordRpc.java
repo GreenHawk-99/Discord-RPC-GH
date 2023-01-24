@@ -4,13 +4,10 @@ import club.minnced.discord.rpc.DiscordEventHandlers;
 import club.minnced.discord.rpc.DiscordRPC;
 import club.minnced.discord.rpc.DiscordRichPresence;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class DiscordRpc {
     public DiscordRpc() {
         DiscordRPC lib = DiscordRPC.INSTANCE;
-        String applicationId = "1040008584060223528";
+        String applicationId = "id here";
         String steamId = "";
         DiscordEventHandlers handlers = new DiscordEventHandlers();
         handlers.ready = (user) -> System.out.println("Ready!");
